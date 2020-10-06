@@ -1,0 +1,24 @@
+#searchForm input {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 60px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 25px;
+    color: black;
+    border-radius: 30px;
+}
+
+#searchForm input::placeholder {
+    color: rgba(41, 2, 2, 0.5);
+}
+
+#searchForm button {
+    background-color: skyblue;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#searchForm input, button:focus {
+    outline: none;
+}

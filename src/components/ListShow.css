@@ -1,0 +1,92 @@
+.trending-body {
+    background-color: white;
+    width: 800px;
+    min-height: 800px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.general-info {
+    background-color: transparent;
+    padding: 0 20px;
+    width: 500px;
+    height: 180px;
+    margin: 5px auto;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.UserImage {
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    padding: 0 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.nameDesc {
+    background-color: transparent;
+    height: 40px;
+    width: 350px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 20px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.dateAndTime {
+    background-color: transparent;
+    color: black;
+    height: 40px;
+    width: 350px;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 20px;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+}
+
+.message {
+    background-color: transparent;
+    font-size: 18px;
+    height: 50px;
+    width : 430px;
+    text-align: left;
+    padding: 0 20px;
+    color: black;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+
+.image {
+    background-color: transparent;
+    padding: 0 20px;
+    width: 500px;
+    height: 380px;
+    margin: 5px auto;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .userImg {
+    height: 80px;
+    width: 80px;
+} */
+
+gifImage{
+    height: 380px;
+    width: 500px;
+}
